@@ -6,6 +6,9 @@ const App = () => {
   return (
     <div>
         {/* Do not remove the main div */}
+        <button onClick={() => setCount((count) => count + 1)}>
+          count is {count}
+        </button>
     </div>
   )
 }
