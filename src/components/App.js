@@ -2,7 +2,9 @@
 import React, { useState } from "react";
 
 const App = () => {
+  
   const [count , setCount] = useState(0);
+  
   const onAdd = () => {
     setCount(count + 1);
   }
