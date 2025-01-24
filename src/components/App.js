@@ -1,7 +1,7 @@
 
 import React, { useState } from "react";
 
-const App = () => {
+const App = () =>{
   
   const [count , setCount] = useState(0);
   
@@ -12,7 +12,6 @@ const App = () => {
     <div>
         <p>Button clicked {count} times.</p>
         <button onClick = {onAdd} >Click Me</button>
-        
     </div>
   )
 }
